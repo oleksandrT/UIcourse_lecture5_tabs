@@ -37,13 +37,14 @@ body {
     /*display: none;*/
     height: 0;
     opacity: 0;
-    transition: height 0.3s ease, opacity 0.3s ease;
+    transition: height 0.1s 0.1s ease, opacity 0s ease;
 }
 
 .tabs-content > div.active {
     /*display: block;*/
     height: auto;
     opacity: 1;
+    transition: height 0.1s 0.4s, opacity 0.3s 0.5s ease;
 }
 
 .tabs-content table td:nth-child(2n) {
